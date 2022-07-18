@@ -3,7 +3,7 @@ package com.portfolio.cjl.Controller;
 
 import com.portfolio.cjl.Entity.Educacion;
 import com.portfolio.cjl.Security.Controller.Mensaje;
-import com.portfolio.cjl.Security.Dto.dtoEducacion;
+import com.portfolio.cjl.Dto.dtoEducacion;
 import com.portfolio.cjl.Service.SEducacion;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;

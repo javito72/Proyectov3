@@ -1,14 +1,17 @@
 
-package com.portfolio.cjl.Security.Dto;
+package com.portfolio.cjl.Dto;
+
 
 import javax.validation.constraints.NotBlank;
 
 
 public class dtoEducacion {
-    @NotBlank
+     @NotBlank
     private String nombreEd;
     @NotBlank
     private String descripcionEd;
+    
+    //Constructores
 
     public dtoEducacion() {
     }
@@ -30,11 +33,10 @@ public class dtoEducacion {
         return descripcionEd;
     }
 
-    public void setDescripcionEd(String descripcionEd) {
+    public void setDescripcionEd(String descripcionE) {
         this.descripcionEd = descripcionEd;
     }
     
     
-    
-    
+
 }
