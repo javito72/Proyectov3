@@ -11,6 +11,7 @@ import { SProyectoService } from 'src/app/service/s-proyecto.service';
 export class NewProyectoComponent implements OnInit {
    nombreP: string = '';
    descripcionP: string = '';
+   
   constructor(private sProyecto: SProyectoService, private router: Router) { }
 
   ngOnInit(): void {
