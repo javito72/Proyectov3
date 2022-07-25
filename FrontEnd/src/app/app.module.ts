@@ -22,8 +22,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { interceptorProvider } from './service/interceptor-service';
 import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
 import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
-import { NewEducacionComponent } from './components/experiencia/new-educacion.component';
-import { EditEducacionComponent } from './components/experiencia/edit-educacion.component';
+import { NewEducacionComponent } from './components/educacion/new-educacion.component';
+import { EditEducacionComponent } from './components/educacion/edit-educacion.component';
+import { NewProyectoComponent } from './components/proyecto//new-proyecto.component';
+import { EditProyectoComponent } from './components/proyecto/edit-proyecto.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +45,9 @@ import { EditEducacionComponent } from './components/experiencia/edit-educacion.
     NewExperienciaComponent,
     EditExperienciaComponent,
     NewEducacionComponent,
-    EditEducacionComponent 
+    EditEducacionComponent,
+    NewProyectoComponent,
+    EditProyectoComponent 
   ],
   imports: [
     BrowserModule,

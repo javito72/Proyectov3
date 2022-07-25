@@ -2,7 +2,7 @@
     <h1>Educación</h1>
     <div class="col-lg-2">
         <button type="button" class="btn btn-dark" routerLink="/nuevaedu" *ngIf="isLogged">
-            Nueva Educacion
+            Nueva Educación
         </button>
     </div>
 
@@ -21,10 +21,11 @@
                     </td>
                     <td *ngIf="isLogged">
                         <button class="btn btn-danger" (click)="delete(Educacion.id)">
-                            <i class="bi bi-trash"></i> BORRAR</button>
+                            <i class="bi bi-trash-fill"></i> BORRAR</button>
                     </td>
                 </tr>
             </tbody>
         </table>
     </div>
+
 </div>

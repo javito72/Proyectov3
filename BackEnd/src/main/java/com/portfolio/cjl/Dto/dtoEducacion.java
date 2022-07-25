@@ -33,7 +33,7 @@ public class dtoEducacion {
         return descripcionEd;
     }
 
-    public void setDescripcionEd(String descripcionE) {
+    public void setDescripcionEd(String descripcionEd) {
         this.descripcionEd = descripcionEd;
     }
     

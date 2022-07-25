@@ -10,6 +10,7 @@ import { TokenService } from 'src/app/service/token.service';
 })
 export class EducacionComponent implements OnInit {
   edu: Educacion[] = [];
+
   constructor(private sEducacion: SEducacionService, private tokenService: TokenService) { }
 
   isLogged = false;
@@ -33,11 +34,9 @@ export class EducacionComponent implements OnInit {
         data => {
           this.cargarEducacion();
         }, err => {
-          alert("No se pudo borrar la educación");
+          alert("No se pudo borrar la experiencia");
         }
       )
     }
   }
 }
-
-
